@@ -1,0 +1,261 @@
+@media (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+    .waiting_wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;        
+    }   
+    .waiting_item {
+        margin: 0 0 25px 0;
+    }
+    .waiting_item:nth-child(3) {
+        margin: 0;
+    }
+   
+    .optimization .optimization_text {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .optimization .optimization_header {
+            font-size: 23px;        
+    }
+
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 760px;
+    }    
+    section.optimization {
+        padding: 65px 0 65px 0;
+    }
+    .promo .title {
+        font-size: 35px;
+    }
+    .simple h2.title_big {
+        font-size: 70px;
+        line-height: 60px;
+    }
+    .surprise div.mobile {
+        font-size: 22px;
+    }
+    .waiting div.waiting_subheader {
+        font-size: 20px;
+    }
+    .optimization .optimization_img {
+        height: 350px;
+        top: 130px;  
+        left: -80px;     
+    }
+    .optimization .optimization_header {
+        margin: 0 auto;
+        font-size: 22px;
+        text-align: center;
+    }
+    .optimization .optimization_text {
+        margin-left: 320px;
+    }  
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 560px;
+    } 
+    .promo .title {
+        font-size: 30px;
+    }
+    .simple h2.title_big {
+        font-size: 60px;
+        line-height: 45px;
+    }
+    .promo div.promo_text {
+        font-size: 19px;
+        line-height: 30px;
+    
+    }    
+    
+    .optimization .optimization_text {
+        margin-left: 180px;
+    }    
+    .optimization .optimization_img {
+        height: 300px;
+        top: 190px;  
+        left: -160px;     
+    }
+    .finish div.finish_wrapper {
+        margin-top: 41px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .finish .finish_wrapper .finish_item {
+       margin-bottom: 25px;
+    }
+    .finish .finish_wrapper .finish_item:nth-child(1) {
+        margin-right: 20px;
+    }
+    .finish .finish_wrapper .finish_item:nth-child(3) {
+        margin-right: 20px;
+    }
+
+    .finish h2.finish_header {
+        font-size: 25px;
+    }
+    .waiting .waiting_wrapper .waiting_item img.waiting_img {
+        width: 80%;
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        max-width: 90%;
+    }
+    section.promo {
+        min-height: 700px;
+    }
+    .promo .title {
+        font-size: 20px;
+    }
+    .promo h1.title {
+        margin-top: 30px;
+    }
+    .simple h2.title_big {
+        font-size: 50px;
+        line-height: 50px;
+    }
+    .promo div.promo_text {
+        font-size: 15px;
+        line-height: 25px;
+        margin-bottom: 25px;
+    }
+    div.discover {
+        margin-top: 50px;
+    }
+    .waiting h2.waiting_header {
+        font-size: 23px;
+    }
+    .waiting div.waiting_subheader {
+        font-size: 16px;
+    }
+    .optimization .optimization_img {
+        top: 350px;
+    }
+    .optimization .optimization_header {
+        font-size: 19px;
+    }
+    .surprise div.surprise_text {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .first_webinar .fb_promo .fb_text h2.fb_p2 {
+        font-size: 30px;
+    }
+    .first_webinar .fb_promo .fb_text h2.fb_p1 {
+        font-size: 25px;
+    }
+    .first_webinar .fb_promo .fb_text h2.fb_p3 {
+        font-size: 20px;
+    }
+    .first_webinar .fb_promo .fb_img {
+        height: 160px;
+    }
+    .finish h2.finish_header {
+        font-size: 23px;
+    }
+    .promo button.promo_btn, .surprise button.surprise_btn {
+        width: 75%;
+        font-size: 17px;
+        height: 70px;
+    }
+}
+
+@media (max-width: 320px) {
+    .promo .title {
+        font-size: 15px;
+        margin-top: 20px;
+    }
+    .simple h2.title_big {
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .waiting .waiting_wrapper div.waiting_item {
+        width: 250px;        
+    }
+    .waiting h2.waiting_header {
+        font-size: 20px;
+    }
+    section.waiting {
+        padding-bottom: 15px;
+    }
+    .optimization .optimization_img {
+        top: 390px;
+        opacity: 0.5;
+    }
+    .optimization .optimization_text {
+        margin: 0 auto;
+        color: #000;
+        margin-top: 20px;
+    }
+    section.optimization {
+        padding-top: 25px;
+    }
+    section.finish {
+        padding: 30px 0px 30px 0;
+    }
+    .finish .finish_wrapper .finish_item:nth-child(1) {
+        margin-right: 0;
+    }
+    .finish .finish_wrapper .finish_item:nth-child(3) {
+        margin-right: 0;
+    }
+    .finish h2.finish_header {
+        font-size: 20px;
+    }
+    .surprise div.surprise_text {
+        font-size: 17px;
+        line-height: 24px;
+    }
+    .surprise .surprise_logo {
+        height: 150px;
+    }
+    .first_webinar .fb_promo .fb_img {
+        height: 140px;
+    }
+    .first_webinar .fb_promo .fb_text h2.fb_p1 {
+        line-height: 18px;
+        font-size: 18px;
+    }
+    .first_webinar .fb_promo .fb_text h2.fb_p2 {
+        line-height: 25px;
+        font-size: 25px;
+    }
+    .first_webinar .fb_promo .fb_text h2.fb_p3 {
+        font-size: 18px;
+    }
+    div.footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 30px 0px 30px 0px;
+
+    }
+    .footer span {
+        display: none;
+    }
+    section.surprise {
+        padding: 30px 0 0px 0;     
+        min-height: 560px; 
+    }
+    section.first_webinar {
+        padding: 50px 0px 50px 0px;
+        height: 430px;
+    }
+}
+

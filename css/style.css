@@ -1,3 +1,6 @@
+@import url(media.css);
+
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -182,17 +185,16 @@ h2.title {
     padding: 102px 0 107px 0;
 }
 
-.optimization .optimization_header {
+.optimization_header {
     margin-left: 391px;
     font-family: Roboto;
     font-size: 28px;
-    line-height: 12px;
     font-weight: 900;
     text-transform: uppercase;
     color: #299cbd;
 }
 
-.optimization .optimization_text {
+.optimization_text {
     margin-left: 389px;
     margin-top: 25px;
     font-family: Roboto;
@@ -202,11 +204,11 @@ h2.title {
     color: #4a4a4a;
 }
 
-.optimization .optimization_text span {
+.optimization_text span {
     font-weight: 700;
 }
 
-.optimization .optimization_img {
+.optimization_img {
     position: absolute;
     top: -48px;
     left: -240px;
